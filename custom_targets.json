@@ -1,0 +1,27 @@
+{
+"WIO_EMW3166": {
+        "inherits": [
+            "MCU_STM32F4"
+        ],
+        "extra_labels_add": [
+            "STM32F412xG",
+            "WICED",
+            "CYW43362"
+        ],
+        "macros_add": [
+            "STM32F412Zx"
+        ],
+        "device_has_add": [
+            "CAN",
+            "TRNG"
+        ],
+        "device_name": "STM32F412ZG",
+        "overrides": {
+            "clock_source": "USE_PLL_HSI",
+            "network-default-interface-type": "WIFI"
+        },
+        "detect_code": [
+            "0451"
+        ]
+    },
+}
