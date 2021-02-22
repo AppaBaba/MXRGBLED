@@ -1,0 +1,10 @@
+{
+     "config": {  
+        "core": "Cortex-M4F",
+        "default_toolchain": "ARM",
+        "extra_labels": ["STM", "STM32F4", "STM32F412RG"],
+        "supported_toolchains": ["ARM", "uARM", "GCC_ARM", "IAR"],
+        "stdio_uart_tx": "PA _11",
+        "stdio_uart_rx": "PA_12"
+     }
+ }
